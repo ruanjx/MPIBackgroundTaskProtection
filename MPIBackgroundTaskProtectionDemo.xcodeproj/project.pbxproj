@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB0CB4F2459264B00B8F242 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0CB4E2459264B00B8F242 /* AppDelegate.m */; };
+		2EB0CB522459264B00B8F242 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0CB512459264B00B8F242 /* SceneDelegate.m */; };
+		2EB0CB552459264B00B8F242 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0CB542459264B00B8F242 /* ViewController.m */; };
+		2EB0CB582459264B00B8F242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB0CB562459264B00B8F242 /* Main.storyboard */; };
+		2EB0CB5A2459264E00B8F242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB0CB592459264E00B8F242 /* Assets.xcassets */; };
+		2EB0CB5D2459264E00B8F242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB0CB5B2459264E00B8F242 /* LaunchScreen.storyboard */; };
+		2EB0CB602459264E00B8F242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0CB5F2459264E00B8F242 /* main.m */; };
+		2EB0CB6A2459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0CB692459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests.m */; };
+		2EB0CB752459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0CB742459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests.m */; };
+		2EB0CB842459266700B8F242 /* UIApplication+MPIBackgroundTaskProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0CB822459266700B8F242 /* UIApplication+MPIBackgroundTaskProtection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EB0CB662459264E00B8F242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EB0CB422459264B00B8F242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB0CB492459264B00B8F242;
+			remoteInfo = MPIBackgroundTaskProtectionDemo;
+		};
+		2EB0CB712459264E00B8F242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EB0CB422459264B00B8F242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB0CB492459264B00B8F242;
+			remoteInfo = MPIBackgroundTaskProtectionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EB0CB4A2459264B00B8F242 /* MPIBackgroundTaskProtectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPIBackgroundTaskProtectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB0CB4D2459264B00B8F242 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EB0CB4E2459264B00B8F242 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EB0CB502459264B00B8F242 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2EB0CB512459264B00B8F242 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2EB0CB532459264B00B8F242 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EB0CB542459264B00B8F242 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EB0CB572459264B00B8F242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EB0CB592459264E00B8F242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EB0CB5C2459264E00B8F242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EB0CB5E2459264E00B8F242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB0CB5F2459264E00B8F242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EB0CB652459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPIBackgroundTaskProtectionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB0CB692459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPIBackgroundTaskProtectionDemoTests.m; sourceTree = "<group>"; };
+		2EB0CB6B2459264E00B8F242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB0CB702459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPIBackgroundTaskProtectionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB0CB742459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPIBackgroundTaskProtectionDemoUITests.m; sourceTree = "<group>"; };
+		2EB0CB762459264E00B8F242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB0CB822459266700B8F242 /* UIApplication+MPIBackgroundTaskProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MPIBackgroundTaskProtection.m"; sourceTree = "<group>"; };
+		2EB0CB832459266700B8F242 /* UIApplication+MPIBackgroundTaskProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MPIBackgroundTaskProtection.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB0CB472459264B00B8F242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB0CB622459264E00B8F242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB0CB6D2459264E00B8F242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB0CB412459264B00B8F242 = {
+			isa = PBXGroup;
+			children = (
+				2EB0CB4C2459264B00B8F242 /* MPIBackgroundTaskProtectionDemo */,
+				2EB0CB682459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests */,
+				2EB0CB732459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests */,
+				2EB0CB4B2459264B00B8F242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB0CB4B2459264B00B8F242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0CB4A2459264B00B8F242 /* MPIBackgroundTaskProtectionDemo.app */,
+				2EB0CB652459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests.xctest */,
+				2EB0CB702459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EB0CB4C2459264B00B8F242 /* MPIBackgroundTaskProtectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0CB4D2459264B00B8F242 /* AppDelegate.h */,
+				2EB0CB4E2459264B00B8F242 /* AppDelegate.m */,
+				2EB0CB502459264B00B8F242 /* SceneDelegate.h */,
+				2EB0CB512459264B00B8F242 /* SceneDelegate.m */,
+				2EB0CB532459264B00B8F242 /* ViewController.h */,
+				2EB0CB542459264B00B8F242 /* ViewController.m */,
+				2EB0CB832459266700B8F242 /* UIApplication+MPIBackgroundTaskProtection.h */,
+				2EB0CB822459266700B8F242 /* UIApplication+MPIBackgroundTaskProtection.m */,
+				2EB0CB562459264B00B8F242 /* Main.storyboard */,
+				2EB0CB592459264E00B8F242 /* Assets.xcassets */,
+				2EB0CB5B2459264E00B8F242 /* LaunchScreen.storyboard */,
+				2EB0CB5E2459264E00B8F242 /* Info.plist */,
+				2EB0CB5F2459264E00B8F242 /* main.m */,
+			);
+			path = MPIBackgroundTaskProtectionDemo;
+			sourceTree = "<group>";
+		};
+		2EB0CB682459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0CB692459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests.m */,
+				2EB0CB6B2459264E00B8F242 /* Info.plist */,
+			);
+			path = MPIBackgroundTaskProtectionDemoTests;
+			sourceTree = "<group>";
+		};
+		2EB0CB732459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0CB742459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests.m */,
+				2EB0CB762459264E00B8F242 /* Info.plist */,
+			);
+			path = MPIBackgroundTaskProtectionDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB0CB492459264B00B8F242 /* MPIBackgroundTaskProtectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB0CB792459264E00B8F242 /* Build configuration list for PBXNativeTarget "MPIBackgroundTaskProtectionDemo" */;
+			buildPhases = (
+				2EB0CB462459264B00B8F242 /* Sources */,
+				2EB0CB472459264B00B8F242 /* Frameworks */,
+				2EB0CB482459264B00B8F242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPIBackgroundTaskProtectionDemo;
+			productName = MPIBackgroundTaskProtectionDemo;
+			productReference = 2EB0CB4A2459264B00B8F242 /* MPIBackgroundTaskProtectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EB0CB642459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB0CB7C2459264E00B8F242 /* Build configuration list for PBXNativeTarget "MPIBackgroundTaskProtectionDemoTests" */;
+			buildPhases = (
+				2EB0CB612459264E00B8F242 /* Sources */,
+				2EB0CB622459264E00B8F242 /* Frameworks */,
+				2EB0CB632459264E00B8F242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB0CB672459264E00B8F242 /* PBXTargetDependency */,
+			);
+			name = MPIBackgroundTaskProtectionDemoTests;
+			productName = MPIBackgroundTaskProtectionDemoTests;
+			productReference = 2EB0CB652459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EB0CB6F2459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB0CB7F2459264E00B8F242 /* Build configuration list for PBXNativeTarget "MPIBackgroundTaskProtectionDemoUITests" */;
+			buildPhases = (
+				2EB0CB6C2459264E00B8F242 /* Sources */,
+				2EB0CB6D2459264E00B8F242 /* Frameworks */,
+				2EB0CB6E2459264E00B8F242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB0CB722459264E00B8F242 /* PBXTargetDependency */,
+			);
+			name = MPIBackgroundTaskProtectionDemoUITests;
+			productName = MPIBackgroundTaskProtectionDemoUITests;
+			productReference = 2EB0CB702459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB0CB422459264B00B8F242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "阮景雄";
+				TargetAttributes = {
+					2EB0CB492459264B00B8F242 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					2EB0CB642459264E00B8F242 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2EB0CB492459264B00B8F242;
+					};
+					2EB0CB6F2459264E00B8F242 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 2EB0CB492459264B00B8F242;
+					};
+				};
+			};
+			buildConfigurationList = 2EB0CB452459264B00B8F242 /* Build configuration list for PBXProject "MPIBackgroundTaskProtectionDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB0CB412459264B00B8F242;
+			productRefGroup = 2EB0CB4B2459264B00B8F242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB0CB492459264B00B8F242 /* MPIBackgroundTaskProtectionDemo */,
+				2EB0CB642459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests */,
+				2EB0CB6F2459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB0CB482459264B00B8F242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB0CB5D2459264E00B8F242 /* LaunchScreen.storyboard in Resources */,
+				2EB0CB5A2459264E00B8F242 /* Assets.xcassets in Resources */,
+				2EB0CB582459264B00B8F242 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB0CB632459264E00B8F242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB0CB6E2459264E00B8F242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB0CB462459264B00B8F242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB0CB552459264B00B8F242 /* ViewController.m in Sources */,
+				2EB0CB4F2459264B00B8F242 /* AppDelegate.m in Sources */,
+				2EB0CB602459264E00B8F242 /* main.m in Sources */,
+				2EB0CB842459266700B8F242 /* UIApplication+MPIBackgroundTaskProtection.m in Sources */,
+				2EB0CB522459264B00B8F242 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB0CB612459264E00B8F242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB0CB6A2459264E00B8F242 /* MPIBackgroundTaskProtectionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB0CB6C2459264E00B8F242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB0CB752459264E00B8F242 /* MPIBackgroundTaskProtectionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EB0CB672459264E00B8F242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EB0CB492459264B00B8F242 /* MPIBackgroundTaskProtectionDemo */;
+			targetProxy = 2EB0CB662459264E00B8F242 /* PBXContainerItemProxy */;
+		};
+		2EB0CB722459264E00B8F242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EB0CB492459264B00B8F242 /* MPIBackgroundTaskProtectionDemo */;
+			targetProxy = 2EB0CB712459264E00B8F242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EB0CB562459264B00B8F242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB0CB572459264B00B8F242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EB0CB5B2459264E00B8F242 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB0CB5C2459264E00B8F242 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EB0CB772459264E00B8F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EB0CB782459264E00B8F242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EB0CB7A2459264E00B8F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Q2K2E67T5B;
+				INFOPLIST_FILE = MPIBackgroundTaskProtectionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MPIBackgroundTaskProtectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match2 Development *";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EB0CB7B2459264E00B8F242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Q2K2E67T5B;
+				INFOPLIST_FILE = MPIBackgroundTaskProtectionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MPIBackgroundTaskProtectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match2 Development *";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EB0CB7D2459264E00B8F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MPIBackgroundTaskProtectionDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MPIBackgroundTaskProtectionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPIBackgroundTaskProtectionDemo.app/MPIBackgroundTaskProtectionDemo";
+			};
+			name = Debug;
+		};
+		2EB0CB7E2459264E00B8F242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MPIBackgroundTaskProtectionDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MPIBackgroundTaskProtectionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPIBackgroundTaskProtectionDemo.app/MPIBackgroundTaskProtectionDemo";
+			};
+			name = Release;
+		};
+		2EB0CB802459264E00B8F242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MPIBackgroundTaskProtectionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MPIBackgroundTaskProtectionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MPIBackgroundTaskProtectionDemo;
+			};
+			name = Debug;
+		};
+		2EB0CB812459264E00B8F242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MPIBackgroundTaskProtectionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.MPIBackgroundTaskProtectionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MPIBackgroundTaskProtectionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB0CB452459264B00B8F242 /* Build configuration list for PBXProject "MPIBackgroundTaskProtectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB0CB772459264E00B8F242 /* Debug */,
+				2EB0CB782459264E00B8F242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB0CB792459264E00B8F242 /* Build configuration list for PBXNativeTarget "MPIBackgroundTaskProtectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB0CB7A2459264E00B8F242 /* Debug */,
+				2EB0CB7B2459264E00B8F242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB0CB7C2459264E00B8F242 /* Build configuration list for PBXNativeTarget "MPIBackgroundTaskProtectionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB0CB7D2459264E00B8F242 /* Debug */,
+				2EB0CB7E2459264E00B8F242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB0CB7F2459264E00B8F242 /* Build configuration list for PBXNativeTarget "MPIBackgroundTaskProtectionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB0CB802459264E00B8F242 /* Debug */,
+				2EB0CB812459264E00B8F242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EB0CB422459264B00B8F242 /* Project object */;
+}
